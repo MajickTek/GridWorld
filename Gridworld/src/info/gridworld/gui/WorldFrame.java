@@ -471,4 +471,8 @@ public class WorldFrame<T> extends JFrame {
 			}
 		}
 	}
+	
+	public GridPanel getDisplay() {
+		return display;
+	}
 }

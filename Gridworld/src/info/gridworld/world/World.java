@@ -310,4 +310,9 @@ public class World<T>
         }
         return s;
     }
+    
+    
+    public WorldFrame<T> getFrame() {
+    	return frame;
+    }
 }
